@@ -1,0 +1,7 @@
+mpirun --mca btl openib,self -np 1 /home/sebennett/Solar/Exec/nn-avgmb-spps /scratch/3436371/data_ 0 40 /share/states/spps/spps_N_4.nc 4 9 .01 2.58484573202 1 30 0 0 573 587 398 421 0 0 40 1 2 0 120 40          
+statefile = /share/states/spps/spps_N_4.nc
+
+real	0m3.498s
+user	0m3.053s
+sys	0m0.148s
+mv /scratch/3436371/data_0.nc /scratch/3436371/data_10.nc /scratch/3436371/data_11.nc /scratch/3436371/data_12.nc /scratch/3436371/data_13.nc /scratch/3436371/data_14.nc /scratch/3436371/data_15.nc /scratch/3436371/data_16.nc /scratch/3436371/data_17.nc /scratch/3436371/data_18.nc /scratch/3436371/data_19.nc /scratch/3436371/data_1.nc /scratch/3436371/data_20.nc /scratch/3436371/data_21.nc /scratch/3436371/data_22.nc /scratch/3436371/data_23.nc /scratch/3436371/data_24.nc /scratch/3436371/data_25.nc /scratch/3436371/data_26.nc /scratch/3436371/data_27.nc /scratch/3436371/data_28.nc /scratch/3436371/data_29.nc /scratch/3436371/data_2.nc /scratch/3436371/data_30.nc /scratch/3436371/data_31.nc /scratch/3436371/data_32.nc /scratch/3436371/data_33.nc /scratch/3436371/data_34.nc /scratch/3436371/data_35.nc /scratch/3436371/data_36.nc /scratch/3436371/data_37.nc /scratch/3436371/data_38.nc /scratch/3436371/data_39.nc /scratch/3436371/data_3.nc /scratch/3436371/data_4.nc /scratch/3436371/data_5.nc /scratch/3436371/data_6.nc /scratch/3436371/data_7.nc /scratch/3436371/data_8.nc /scratch/3436371/data_9.nc /home/sebennett/Solar/Data/firstTestRunSolar/0

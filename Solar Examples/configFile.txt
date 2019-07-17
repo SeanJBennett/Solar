@@ -1,0 +1,78 @@
+# Name of submission queue
+nodes
+# Priority of queue
+0
+# Directory of output files.
+/home/sebennett/Solar/Output
+# Name of the qsub script
+Solar.sh
+# Number of Processors
+1
+# Name of executable file
+/home/sebennett/Solar/Exec/nn-avgmb-spps
+# Directory where the raw data is
+/home/sebennett/Solar/Data
+# Number of Atoms
+4
+# T-Max, T-step
+9,.01
+# Electric Field
+2.5848457320184783,3.9848457320184783,.02
+#0.4102730,.515089,.0005
+#2.60657,3.63457,0.002
+#1.65774, 2.1012,0.005
+#3.1948457320184783,3.2948457320184783,.002
+#1.9,2.4,0.005
+# geometry code
+# 0 = fixed linear array for testing
+# 1 = sphere; x is radius, y and z unused
+# 2 = cylinder; x is radius, z is length, y unused
+# 3 = special 2 vs 3 atom model
+# 4 = 8 atoms on the vertices of a cube
+# 5 = 8 atoms on the randomly jiggled vertices of a cube (by 1 um)
+# 7 = 7 atoms, 6 on octahedron vertices and one in the middle. Only report probability for middle atom!
+1
+# Name of Run
+firstTestRunSolar
+# Directory where the scripts are saved.
+/home/sebennett/Solar
+# Averaged Data Directory
+/home/sebennett/Solar/Results
+# Compilation Code -- numProb is for a time and two probabilities
+numProb
+# Geometry Block
+#x, y, z
+30
+0
+0
+# Dipole Moment Block
+#supu
+#slpu
+#supl
+#slpl
+573
+587
+398
+421
+#573
+#587
+#398
+#421
+# Stark Levels Block -- first entry is axial gradient, second entry is radial gradient, 3rd entry TOTAL NUMBER OF ATOMS
+# fourth entry is initial state code: 0 = all PL, 1 = all PU, 2 = superposition of PU/PL, 3 = random initial phases
+# fifth entry is which p level:
+# 0 = 38p, resonances at 0.476089, 0.465909, 0.465909, 0.451273
+# 1 = 37p, resonances at 1.76774, 1.86991, 1.86991, 1.9912
+# 2 = 36p, resonances at 3.10543, 2.94518, 3.29457
+0
+0
+40
+1
+2
+# If you want to add any other params to loop through, do them here.
+#0,20,10
+#30,10,5
+#1,2,1
+#1,5,2
+# Number of runs: <first run number>, <total number of runs>, <runs per instance>
+0,120,40
