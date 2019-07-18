@@ -37,8 +37,8 @@ The purpose of this project is to create an open source program that can hopeful
 
 ### Prerequisites
 
-Numpy
-Slurm
+- Numpy
+- Slurm
 
 
 ### Installing
