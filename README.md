@@ -70,11 +70,15 @@ Solar, as stated above, automaically generates code and automatically sends jobs
 
 ## Deployment <a name = "deployment"></a>
 
-The configuration file ultimately dictates what Solar does. The first picture showcases a couple lines from the config file that show a comment line, #, that is ignored by Solar followed by a line of three comma seperated numbers. Solar interprets this as a paramater we want to loop and sets up a for loop for it. In this case a for loop starting at 0, ending at 120, in steps of 40 (in the second picture the end is set to 160 (end + step size), this is how range needs to be set up to work properly). If there are multiple lines like this in the config file, Solar will automatically start nesting them.
+The configuration file ultimately dictates what Solar does. The picture below showcases a couple lines from the config file that show a comment line, #, that is ignored by Solar followed by a line of three comma seperated numbers. 
 
 ![Screenshot from 2019-07-18 16-03-46](https://user-images.githubusercontent.com/51754047/61488475-52173b00-a976-11e9-91ce-81c50ec41afd.png)
 
+Solar interprets this as a paramater we want to loop and sets up a for loop for it. In this case a for loop starting at 0, ending at 120, in steps of 40 (in the second picture the end is set to 160 (end + step size), this is how range needs to be set up to work properly). If there are multiple lines like this in the config file, Solar will automatically start nesting them.
+
 ![Screenshot from 2019-07-18 16-03-53](https://user-images.githubusercontent.com/51754047/61488516-6c511900-a976-11e9-8b1f-6acecf79224f.png)
+
+- Run Solar with the example config file to be able to see this in action.
 
 
 ## Built Using <a name = "built_using"></a>
