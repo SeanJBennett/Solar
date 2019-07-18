@@ -31,7 +31,7 @@
 
 ## About <a name = "about"></a>
 
-Solar is a program that automates submission of jobs to Slurm, a Supercomputer queueing system. Solar is a program written in Python that automatically generates more Python code from a simple configuration text file. This makes Solar very useful to those who need to submit many jobs to a Supercomputer and those with limited coding experience. Additionally, Solar also takes away the hassle of manually having to change each jobs paramaters before submission to a Supercomputer. Solar makes use of Slurm for job submissions to our Supercomputer but can be easily adapted to your choice of queueing system.
+Solar is a program that automates submission of jobs to Slurm, a Supercomputer queueing system. Solar is a program written in Python that automatically generates more Python code from a simple configuration text file. This makes Solar very useful to those who need to submit many jobs to a Supercomputer and those with limited coding experience. Additionally, Solar also takes away the hassle of manually having to change each jobs parameters before submission to a Supercomputer. Solar makes use of Slurm for job submissions to our Supercomputer but can be easily adapted to your choice of queueing system.
 
 ## Getting Started <a name = "getting_started"></a>
 
@@ -53,7 +53,7 @@ https://www.schedmd.com/downloads.php
 
 
 ## Usage <a name="usage"></a>
-Solar, as stated above, automaically generates code and automatically sends jobs to a Supercomputer. Additionally, Solar creates and curates log files, results files and raw data that is taken right from the Supercomputer (see Solar Examples).
+Solar, as stated above, automatically generates code and automatically sends jobs to a Supercomputer. Additionally, Solar creates and curates log files, results files and raw data that is taken right from the Supercomputer (see Solar Examples).
 
 - Step 1 and 2
 
@@ -70,15 +70,15 @@ Solar, as stated above, automaically generates code and automatically sends jobs
 
 ## Deployment <a name = "deployment"></a>
 
-The configuration file ultimately dictates what Solar does. The picture below showcases a couple lines from the config file that show a comment line, #, that is ignored by Solar followed by a line of three comma seperated numbers. 
+The configuration file ultimately dictates what Solar does. The picture below showcases a couple lines from the config file that show a comment line, #, that is ignored by Solar followed by a line of three comma separated numbers.
 
 ![Screenshot from 2019-07-18 16-03-46](https://user-images.githubusercontent.com/51754047/61488475-52173b00-a976-11e9-91ce-81c50ec41afd.png)
 
-Solar interprets this as a paramater we want to loop and sets up a for loop for it. In this case a for loop starting at 0, ending at 120, in steps of 40 (in the second picture the end is set to 160 (end + step size), this is how range needs to be set up to work properly). If there are multiple lines like this in the config file, Solar will automatically start nesting them.
+Solar interprets this as a parameter we want to loop and sets up a for loop for it. In this case a for loop starting at 0, ending at 120, in steps of 40 (in the second picture the end is set to 160 (end + step size), this is how range needs to be set up to work properly). If there are multiple lines like this in the config file, Solar will automatically start nesting them.
 
 ![Screenshot from 2019-07-18 16-03-53](https://user-images.githubusercontent.com/51754047/61488516-6c511900-a976-11e9-8b1f-6acecf79224f.png)
 
-- Run Solar with the example config file to be able to see this in action.
+Run Solar with the example config file to be able to see this in action.
 
 
 ## Built Using <a name = "built_using"></a>
