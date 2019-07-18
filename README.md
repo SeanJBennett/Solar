@@ -31,14 +31,14 @@
 
 ## About <a name = "about"></a>
 
-The purpose of this project is to create an open source program that will aid individuals who are looking into working with Supercomputers in tandem with Atom movement analysis. This project focuses on creating an easily accessible program for scientists and researchers who are well versed in analyzing the data generated from Solar but lacking in how to exactly change the programs code for their specific needs. Solar accomplishes this by genertating the code for the submissionFile, compilationFile, logFile, and shellFile all by itself. All the user needs to do is to change the variables in the configFile.txt to their liking and Solar will automatically change the code for the user.
+Solar is a program written in Python that automatically generates more Python code from a simple configuration text file and automatically submits jobs to a Supercomputer's queuing system using Slurm. This makes Solar very useful to those who need to submit many jobs to a Supercomputer and those with limited coding experience. Solar makes use of Slurm for job submissions to our Supercomputer but can be easily adapted to your choice of communication system.
 
 ## Getting Started <a name = "getting_started"></a>
 
 ### Prerequisites
 
 - Numpy
-- Slurm
+- Slurm - or your choice of Job Submission System
 
 
 ### Installing
@@ -53,9 +53,7 @@ https://www.schedmd.com/downloads.php
 
 
 ## Usage <a name="usage"></a>
-Below I am going to demonstrate how a normal run of this program would go. First you run Solar.py, and then run submissionFile.py after the prompt. At this point in our system we have to check in on our jobs in the Supercomputer's queue. Solar currently does not do that for you. After the jobs are done run compilationFile.py!
-
-The compilationFile does take a bit of time to fully do its job so if it starts to seem like its idling on you, it's working! After all is said and done a new, blank command line should pop up and that indicates that compilationFile.py has finished and all of the data will be in the necessary directories!
+Solar, as stated above, automaically generates code and automatically sends jobs to a Supercomputer. Additionally, Solar creates and curates log files, results files and raw data that is taken right from the Supercomputer (see Solar Examples).
 
 - Step 1 and 2
 
@@ -71,15 +69,16 @@ The compilationFile does take a bit of time to fully do its job so if it starts 
 
 
 ## Deployment <a name = "deployment"></a>
-Add additional notes about how to deploy this on a live system.
+
+The configuration file ultimately dictates what Solar does. Any changes to the configuration file will automatically appear in Solar and the other generated code upon running. How I've set up Solar to work with the configuration file is that the position/line number of the paramaters does matter but it can be easily changed to be fluid.
 
 ## Built Using <a name = "built_using"></a>
 - [Slurm](https://www.schedmd.com/) - Communicating with the Supercomputer
 - [Python](https://www.python.org/) - Coding Language
 
 ## Authors <a name = "authors"></a>
-- [@bennettsean](https://github.com/bennettsean) 
+- [Sean Bennett](https://github.com/bennettsean) 
 
 ## Acknowledgements <a name = "acknowledgement"></a>
-- Mentor : Thomas Carroll @ Ursinus College
+- Mentor : [Thomas Carroll @ Ursinus College](https://www.ursinus.edu/live/profiles/186-thomas-carroll)
 - <div>Logo made with <a href="/en/" title="Free Online Logo Maker">DesignEvo</a></div>
