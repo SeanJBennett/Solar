@@ -94,5 +94,5 @@ Add additional notes about how to deploy this on a live system.
 - [@bennettsean](https://github.com/bennettsean) 
 
 ## Acknowledgements <a name = "acknowledgement"></a>
-- Thomas Carroll
-- Cover Photo - Photo by Julien DI MAJO on Unsplash
+- Mentor : Thomas Carroll @ Ursinus College
+- Photo by Julien DI MAJO on Unsplash
