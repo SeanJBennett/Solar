@@ -74,7 +74,7 @@ The compilationFile does take a bit of time to fully do its job so if it starts 
 Add additional notes about how to deploy this on a live system.
 
 ## Built Using <a name = "built_using"></a>
-- [Slurm](https://www.schedmd.com/) - Database
+- [Slurm](https://www.schedmd.com/) - Communicating with the Supercomputer
 - [Python](https://www.python.org/) - Coding Language
 
 ## Authors <a name = "authors"></a>
