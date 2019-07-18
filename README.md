@@ -95,3 +95,4 @@ Add additional notes about how to deploy this on a live system.
 
 ## Acknowledgements <a name = "acknowledgement"></a>
 - Mentor : Thomas Carroll @ Ursinus College
+- <div>Logo made with <a href="/en/" title="Free Online Logo Maker">DesignEvo</a></div>
