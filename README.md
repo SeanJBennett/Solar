@@ -30,7 +30,6 @@
 - [Acknowledgments](#acknowledgement)
 
 ## About <a name = "about"></a>
-Write about 1-2 paragraphs describing the purpose of your project.
 
 The purpose of this project is to create an open source program that can hopefully aid individuals who are looking into working with Supercomputers in tandem with Atom movement analysis. This project focuses on creating an easily accessible program for scientists and researchers who are well versed in analyzing the data generated from Solar but lacking in how to exactly change the programs code for their specific needs. Solar accomplishes this by genertating the code for the submissionFile, compilationFile, logFile, and shellFile all by itself. All the user needs to do is to change the variables in the configFile.txt to their liking and Solar will automatically change the code for the user.
 
@@ -38,7 +37,6 @@ The purpose of this project is to create an open source program that can hopeful
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See [deployment](#deployment) for notes on how to deploy the project on a live system.
 
 ### Prerequisites
-What things you need to install the software and how to install them.
 
 Numpy
 Slurm
@@ -51,18 +49,16 @@ A step by step series of examples that tell you how to get a development env run
 pip install numpy
 ```
 
-And repeat
-
 ```
-until finished
+https://www.schedmd.com/downloads.php
 ```
 
-End with an example of getting some data out of the system or using it for a little demo.
 
 ## Usage <a name="usage"></a>
-Below I am going to demonstrate how a normal run of this program would go. First you run Solar.py, then submissionFile.py. At this point in our system you'll have to check in on your jobs in the Supercomputer's queue and when you see they are all done, run compilationFile.py.
+Below I am going to demonstrate how a normal run of this program would go. First you run Solar.py, and then run submissionFile.py. At this point in our system you'll have to check in on your jobs in the Supercomputer's queue and when you see they are all done, run compilationFile.py.
 
 The compilationFile does take a bit to fully do its job so if it starts to seem like its idleing on you, it's working. After all is said and done a new command line should pop up and that indicated that compilationFile.py has finished and all of the data will be in the necessary directories.
+
 ![Screenshot from 2019-07-18 13-15-40](https://user-images.githubusercontent.com/51754047/61478739-2e48fa80-a960-11e9-8fc7-8dc7963a16be.png)
 
 ![Screenshot from 2019-07-18 13-12-01](https://user-images.githubusercontent.com/51754047/61478761-3ef97080-a960-11e9-917c-00dc60ce4c85.png)
