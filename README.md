@@ -31,14 +31,14 @@
 
 ## About <a name = "about"></a>
 
-Solar is a program written in Python that automatically generates more Python code from a simple configuration text file and automatically submits jobs to a Supercomputer's queuing system using Slurm. This makes Solar very useful to those who need to submit many jobs to a Supercomputer and those with limited coding experience. Solar makes use of Slurm for job submissions to our Supercomputer but can be easily adapted to your choice of communication system.
+Solar is a program that automates submission of jobs to Slurm, a Supercomputer queueing system. Solar is a program written in Python that automatically generates more Python code from a simple configuration text file. This makes Solar very useful to those who need to submit many jobs to a Supercomputer and those with limited coding experience. Additionally, Solar also takes away the hassle of manually having to change each jobs paramaters before submission to a Supercomputer. Solar makes use of Slurm for job submissions to our Supercomputer but can be easily adapted to your choice of queueing system.
 
 ## Getting Started <a name = "getting_started"></a>
 
 ### Prerequisites
 
 - Numpy
-- Slurm - or your choice of Job Submission System
+- Slurm - or your choice of queueing system
 
 
 ### Installing
@@ -70,7 +70,12 @@ Solar, as stated above, automaically generates code and automatically sends jobs
 
 ## Deployment <a name = "deployment"></a>
 
-The configuration file ultimately dictates what Solar does. Any changes to the configuration file will automatically appear in Solar and the other generated code upon running. How I've set up Solar to work with the configuration file is that the position/line number of the paramaters does matter but it can be easily changed to be fluid.
+The configuration file ultimately dictates what Solar does. The first picture showcases a line from the config file that showcases a comment line, # that is ignored by Solar, followed by a line of three comma seperated numbers. Solar interprets this as a paramater we want to loop and sets up a for loop for this paramater. In this case a for loop starting at 0, ending at 120, in steps of 40. If there are multiple lines like this in the config file, Solar will automatically start nesting them.
+
+![Screenshot from 2019-07-18 16-03-46](https://user-images.githubusercontent.com/51754047/61488475-52173b00-a976-11e9-91ce-81c50ec41afd.png)
+
+![Screenshot from 2019-07-18 16-03-53](https://user-images.githubusercontent.com/51754047/61488516-6c511900-a976-11e9-8b1f-6acecf79224f.png)
+
 
 ## Built Using <a name = "built_using"></a>
 - [Slurm](https://www.schedmd.com/) - Communicating with the Supercomputer
