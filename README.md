@@ -95,4 +95,3 @@ Add additional notes about how to deploy this on a live system.
 
 ## Acknowledgements <a name = "acknowledgement"></a>
 - Mentor : Thomas Carroll @ Ursinus College
-- Photo by Julien DI MAJO on Unsplash
