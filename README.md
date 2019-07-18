@@ -16,7 +16,7 @@
 
 ---
 
-<p align="center"> Automating Job Submission and Analysis to a Supercomputer using Slurm
+<p align="center"> Automating Job Submission and Analysis to a Supercomputer using Slurm in Python
     <br> 
 </p>
 
@@ -41,14 +41,11 @@ These instructions will get you a copy of the project up and running on your loc
 What things you need to install the software and how to install them.
 
 Numpy
-```
-pip install numpy
-```
+Slurm
+
 
 ### Installing
 A step by step series of examples that tell you how to get a development env running.
-
-Say what the step will be
 
 ```
 pip install numpy
@@ -62,30 +59,10 @@ until finished
 
 End with an example of getting some data out of the system or using it for a little demo.
 
-## Running the tests <a name = "tests"></a>
-Explain how to run the automated tests for this system.
-
-### Break down into end to end tests
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-Explain what these tests test and why
-
-```
-Give an example
-```
-
 ## Usage <a name="usage"></a>
 Below I am going to demonstrate how a normal run of this program would go. First you run Solar.py, then submissionFile.py. At this point in our system you'll have to check in on your jobs in the Supercomputer's queue and when you see they are all done, run compilationFile.py.
 
 compilationFile.py does take a bit to fully do its job so if it starts to seem like its idleing on you, it's working. After all is said and done a new command line should pop up and that indicated that compilationFile.py has finished and all of the data will be in the necessary directories.
-
-
-
 ![Screenshot from 2019-07-18 13-15-40](https://user-images.githubusercontent.com/51754047/61478739-2e48fa80-a960-11e9-8fc7-8dc7963a16be.png)
 
 ![Screenshot from 2019-07-18 13-12-01](https://user-images.githubusercontent.com/51754047/61478761-3ef97080-a960-11e9-917c-00dc60ce4c85.png)
@@ -97,10 +74,8 @@ compilationFile.py does take a bit to fully do its job so if it starts to seem l
 Add additional notes about how to deploy this on a live system.
 
 ## Built Using <a name = "built_using"></a>
-- [MongoDB](https://www.mongodb.com/) - Database
-- [Express](https://expressjs.com/) - Server Framework
-- [VueJs](https://vuejs.org/) - Web Framework
-- [NodeJs](https://nodejs.org/en/) - Server Environment
+- [Slurm](https://www.schedmd.com/) - Database
+- [Python](https://www.python.org/) - Coding Language
 
 ## Authors <a name = "authors"></a>
 - [@bennettsean](https://github.com/bennettsean) 
