@@ -34,7 +34,6 @@
 The purpose of this project is to create an open source program that can hopefully aid individuals who are looking into working with Supercomputers in tandem with Atom movement analysis. This project focuses on creating an easily accessible program for scientists and researchers who are well versed in analyzing the data generated from Solar but lacking in how to exactly change the programs code for their specific needs. Solar accomplishes this by genertating the code for the submissionFile, compilationFile, logFile, and shellFile all by itself. All the user needs to do is to change the variables in the configFile.txt to their liking and Solar will automatically change the code for the user.
 
 ## Getting Started <a name = "getting_started"></a>
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See [deployment](#deployment) for notes on how to deploy the project on a live system.
 
 ### Prerequisites
 
@@ -43,7 +42,6 @@ Slurm
 
 
 ### Installing
-A step by step series of examples that tell you how to get a development env running.
 
 ```
 pip install numpy
