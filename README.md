@@ -62,7 +62,7 @@ End with an example of getting some data out of the system or using it for a lit
 ## Usage <a name="usage"></a>
 Below I am going to demonstrate how a normal run of this program would go. First you run Solar.py, then submissionFile.py. At this point in our system you'll have to check in on your jobs in the Supercomputer's queue and when you see they are all done, run compilationFile.py.
 
-compilationFile.py does take a bit to fully do its job so if it starts to seem like its idleing on you, it's working. After all is said and done a new command line should pop up and that indicated that compilationFile.py has finished and all of the data will be in the necessary directories.
+The compilationFile does take a bit to fully do its job so if it starts to seem like its idleing on you, it's working. After all is said and done a new command line should pop up and that indicated that compilationFile.py has finished and all of the data will be in the necessary directories.
 ![Screenshot from 2019-07-18 13-15-40](https://user-images.githubusercontent.com/51754047/61478739-2e48fa80-a960-11e9-8fc7-8dc7963a16be.png)
 
 ![Screenshot from 2019-07-18 13-12-01](https://user-images.githubusercontent.com/51754047/61478761-3ef97080-a960-11e9-917c-00dc60ce4c85.png)
