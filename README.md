@@ -1,6 +1,6 @@
 <p align="center">
   <a href="" rel="noopener">
- <img width=200px height=200px src="https://unsplash.com/photos/cwL_DmFQTMI" alt="Project logo"></a>
+ <img width=200px height=200px src="https://imgur.com/a/wL4bdNj" alt="Project logo"></a>
 </p>
 
 <h3 align="center">Solar</h3>
