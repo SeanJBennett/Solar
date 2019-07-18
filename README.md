@@ -53,7 +53,7 @@ https://www.schedmd.com/downloads.php
 
 
 ## Usage <a name="usage"></a>
-Below I am going to demonstrate how a normal run of this program would go. First you run Solar.py, and then run submissionFile.py. At this point in our system you'll have to check in on your jobs in the Supercomputer's queue and when you see they are all done, run compilationFile.py!
+Below I am going to demonstrate how a normal run of this program would go. First you run Solar.py, and then run submissionFile.py after the prompt. At this point in our system we have to check in on our jobs in the Supercomputer's queue. Solar currently does not do that for you. After the jobs are done run compilationFile.py!
 
 The compilationFile does take a bit of time to fully do its job so if it starts to seem like its idling on you, it's working! After all is said and done a new, blank command line should pop up and that indicates that compilationFile.py has finished and all of the data will be in the necessary directories!
 
