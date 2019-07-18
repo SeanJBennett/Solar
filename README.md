@@ -16,7 +16,7 @@
 
 ---
 
-<p align="center"> Few lines describing your project.
+<p align="center"> Automating Job Submission and Analysis to a Supercomputer using Slurm
     <br> 
 </p>
 
