@@ -58,12 +58,15 @@ Below I am going to demonstrate how a normal run of this program would go. First
 The compilationFile does take a bit of time to fully do its job so if it starts to seem like its idling on you, it's working! After all is said and done a new, blank command line should pop up and that indicates that compilationFile.py has finished and all of the data will be in the necessary directories!
 
 - Step 1 and 2
+
 ![Screenshot from 2019-07-18 13-15-40](https://user-images.githubusercontent.com/51754047/61478739-2e48fa80-a960-11e9-8fc7-8dc7963a16be.png)
 
 - Step 2 in progress
+
 ![Screenshot from 2019-07-18 13-12-01](https://user-images.githubusercontent.com/51754047/61478761-3ef97080-a960-11e9-917c-00dc60ce4c85.png)
 
 - Step 3 in progress
+
 ![Screenshot from 2019-07-18 13-13-07](https://user-images.githubusercontent.com/51754047/61478776-4882d880-a960-11e9-8930-6bd6985c9ae3.png)
 
 
