@@ -31,7 +31,7 @@
 
 ## About <a name = "about"></a>
 
-Solar is a program that automates submission of jobs to Slurm, a Supercomputer queueing system. Solar is a program written in Python that automatically generates more Python code from a simple configuration text file. This makes Solar very useful to those who need to submit many jobs to a Supercomputer and those with limited coding experience. Additionally, Solar also takes away the hassle of manually having to change each jobs parameters before submission to a Supercomputer. Solar makes use of Slurm for job submissions to our Supercomputer but can be easily adapted to your choice of queueing system.
+Solar is a program written in Python that automates the submission of jobs to Slurm, a Supercomputer queueing system, and compiles the results in an easily readable format. Solar has the unique ability of automatically generating additonal Python code, ontop of Solar itself, from a simple configuration text file. This makes Solar very useful to those who need to submit many jobs to a Supercomputer and those with limited coding experience. Additionally, Solar also takes away the hassle of manually having to change each jobs parameters before submission to a Supercomputer. Solar makes use of Slurm for job submissions to our Supercomputer but can be easily adapted to your choice of queueing system.
 
 ## Getting Started <a name = "getting_started"></a>
 
