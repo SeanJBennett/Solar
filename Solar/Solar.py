@@ -1,5 +1,5 @@
-# Author : Sean Bennett
-# Contact for questions: sebennett@ursinus.edu
+# Author : Sean J Bennett
+#
 ################################################################################
 #                                   Introduction
 #   This program takes informations from the config File feeds Solar that info,

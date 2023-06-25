@@ -8,8 +8,8 @@
 <div align="center">
 
   
-  [![GitHub Issues](https://img.shields.io/github/issues/bennettsean/Solar.svg)](https://github.com/bennettsean/Solar/issues)
-  [![GitHub Pull Requests](https://img.shields.io/github/issues-pr/bennettsean/Solar.svg)](https://github.com/bennettsean/Solar/pulls)
+  [![GitHub Issues](https://img.shields.io/github/issues/SeanJBennett/Solar.svg)](https://github.com/SeanJBennett/Solar/issues)
+  [![GitHub Pull Requests](https://img.shields.io/github/issues-pr/SeanJBennett/Solar.svg)](https://github.com/SeanJBennett/Solar/pulls)
   
 
 </div>
@@ -86,7 +86,7 @@ Run Solar with the example config file to be able to see this in action.
 - [Python](https://www.python.org/) - Coding Language
 
 ## Authors <a name = "authors"></a>
-- [Sean Bennett](https://github.com/bennettsean) 
+- [Sean J Bennett](https://github.com/SeanJBennett) 
 
 ## Acknowledgements <a name = "acknowledgement"></a>
 - Mentor : [Thomas Carroll @ Ursinus College](https://www.ursinus.edu/live/profiles/186-thomas-carroll)
