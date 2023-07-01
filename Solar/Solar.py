@@ -1,4 +1,4 @@
-# Author : Sean J Bennett
+# Author : Sean J. Bennett
 #
 ################################################################################
 #                                   Introduction

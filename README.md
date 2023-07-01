@@ -86,7 +86,7 @@ Run Solar with the example config file to be able to see this in action.
 - [Python](https://www.python.org/) - Coding Language
 
 ## Authors <a name = "authors"></a>
-- [Sean J Bennett](https://github.com/SeanJBennett) 
+- [Sean J. Bennett](https://github.com/SeanJBennett) 
 
 ## Acknowledgements <a name = "acknowledgement"></a>
 - Mentor : [Thomas Carroll @ Ursinus College](https://www.ursinus.edu/live/profiles/186-thomas-carroll)
